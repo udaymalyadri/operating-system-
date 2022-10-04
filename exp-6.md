@@ -64,4 +64,5 @@ printf("\n Average Turn Around Time: \t%f", avg_wt);
 printf("\n Average Waiting Time: \t%f", avg_tat);  
 getch();  
 }
-![Screenshot (16)](https://user-images.githubusercontent.com/113331375/193772568-2f39b328-6f0d-422e-b766-53c4c2342177.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/113331375/193773520-b3bb076d-508c-4352-b47a-59ef32040f4b.png)
+
