@@ -1,0 +1,30 @@
+# operating-system-
+#include<stdio.h>
+int absoluteValue(int); 
+
+int main()
+{
+    int queue[25],n,headposition,i,j,k,seek=0, maxrange,
+    difference,temp,queue1[20],queue2[20],temp1=0,temp2=0;
+    float averageSeekTime;
+    printf("Enter the maximum range of Disk: ");
+    scanf("%d",&maxrange);
+    printf("Enter the number of queue requests: ");
+    scanf("%d",&n);
+    printf("Enter the initial head position: ");
+    scanf("%d",&headposition);
+    printf("Enter the disk positions to be read(queue): ");
+    for(i=1;i<=n;i++)  
+    {
+        scanf("%d",&temp);  
+        if(temp>headposition)
+        {
+            queue1[temp1]=temp; 
+            temp1++; //incrementing temp1
+        }
+        else    //else if temp < current headposition,then push to array queue2[]
+        {   
+            queue2[temp2]=temp; //temp2 is the index variable of queue2[]
+            temp2++;
+        }
+    }
